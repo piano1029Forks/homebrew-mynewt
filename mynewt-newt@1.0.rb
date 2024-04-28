@@ -18,7 +18,6 @@ class MynewtNewtAT10 < Formula
   keg_only :versioned_formula
 
   depends_on "go" => :build
-  depends_on arch: :x86_64
 
   def install
     contents = Dir["{*,.git,.gitignore}"]
